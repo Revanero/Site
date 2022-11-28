@@ -1,0 +1,70 @@
+*,
+*::after,
+*::before{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+@font-face {
+	font-family: BebasNeue;
+	src: url();
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.bastion {
+	font-size: 180%;
+}
+
+
+.header {
+	padding: 10px 0;
+	background-color: #bfbcb2;
+}
+
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	max-width: 1300px;
+	margin: 0 auto;
+	align-items: center;
+}
+
+
+.menu-item {
+	color: black;
+}
+
+
+.menu {
+	margin-inline: 2%;
+	display: flex;
+	justify-content: space-between;
+	width: 500px;
+	color: black;
+}
+
+
+.search {
+	width: 500px;
+	display: flex;
+}
+.search a {
+	border: 1px solid;
+	color: black;
+}
+.search input {
+	width: 100%;
+}
+
+
+.logo {
+	width: 52px;
+	margin-right: 2%;
+}
