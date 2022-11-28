@@ -8,17 +8,27 @@
 
 
 @font-face {
-	font-family: BebasNeue;
-	src: url();
+	font-family: BebasNeue Bold;
+	src: url("../fonts/BebasNeue Bold.ttf");
 }
+@font-face {
+	font-family: BebasNeue Regular;
+	src: url("../fonts/BebasNeue Regular.ttf");
+}
+
 
 a {
     text-decoration: none;
 }
 
+body {
+	background-color: #b09b9c;
+}
+
 
 .bastion {
-	font-size: 180%;
+	font-size: 240%;
+	font-family: BebasNeue Bold;
 }
 
 
@@ -38,7 +48,17 @@ a {
 
 
 .menu-item {
+	font-family: BebasNeue Regular;
+	font-size: 160%;
 	color: black;
+}
+
+
+.button {
+	font-family: BebasNeue Regular;
+	font-size: 160%;
+	padding: 5px;
+	color: white;
 }
 
 
@@ -56,15 +76,53 @@ a {
 	display: flex;
 }
 .search a {
-	border: 1px solid;
-	color: black;
+	display: flex;
+	justify-content: center;
+	width: 120px;
+	border: 2px solid;
+	border-left: 0px;
+	border-color: black;
+	background-color: #b9a359;
 }
 .search input {
 	width: 100%;
+	background-color: #cccbb4;
+	border: 2px solid;
 }
 
 
 .logo {
 	width: 52px;
 	margin-right: 2%;
+}
+
+
+.main-page {
+	width: 1300px;
+	margin: 0 auto;
+}
+
+
+.first_block {
+	display: flex;
+	height: 4500px;
+}
+
+
+.first_block_image {
+	font-size: 240%;
+	font-family: BebasNeue Bold;
+	width: 1300px;
+	height: 731px;
+	padding: 30px;
+	background-image: url(../img/harmonix.jpg);
+	background-size: cover;
+	border: solid;
+	border-width: 2px;
+	border-color: black;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
 }
