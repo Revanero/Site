@@ -1,0 +1,239 @@
+*,
+*::after,
+*::before{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+@font-face {
+	font-family: BebasNeue Bold;
+	src: url("../fonts/BebasNeue Bold.ttf");
+}
+@font-face {
+	font-family: BebasNeue Regular;
+	src: url("../fonts/BebasNeue Regular.ttf");
+}
+
+
+a {
+    text-decoration: none;
+}
+
+body {
+	background-color: #b09b9c;
+}
+
+
+.bastion {
+	font-size: 240%;
+	font-family: BebasNeue Bold;
+}
+
+
+.header {
+	padding: 10px 0;
+	background-color: #bfbcb2;
+}
+
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	max-width: 1300px;
+	margin: 0 auto;
+	align-items: center;
+}
+
+
+.menu-item {
+	font-family: BebasNeue Regular;
+	font-size: 160%;
+	color: black;
+}
+
+
+.button {
+	font-family: BebasNeue Regular;
+	font-size: 160%;
+	padding: 5px;
+	color: white;
+}
+
+
+.menu {
+	margin-inline: 2%;
+	display: flex;
+	justify-content: space-between;
+	width: 500px;
+	color: black;
+}
+
+
+.title {
+	font-size: 240%;
+    font-family: BebasNeue Bold;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.mini_title {
+	font-size: 30px;
+    font-family: BebasNeue Bold;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+
+  h1 {
+    position: relative;
+    overflow: hidden;
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+  }
+  h1 > span {
+    display: inline-block;
+    margin: 0 .4em;
+  }
+  h1 > span:before,
+  h1 > span:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    border-top: 2px solid black;
+    margin-top: .6em;
+  }
+  h1 > span:before {
+    margin-left: -102%;
+  }
+  h1 > span:after {
+    margin-left: 2%;
+  }
+
+
+.search {
+	width: 500px;
+	display: flex;
+}
+.search a {
+	display: flex;
+	justify-content: center;
+	width: 120px;
+	border: 2px solid;
+	border-left: 0px;
+	border-color: black;
+	background-color: #b9a359;
+}
+.search input {
+	width: 100%;
+	background-color: #cccbb4;
+	border: 2px solid;
+	font-family: BebasNeue Regular;
+	font-size: 150%;
+	padding-left: 4px;
+}
+
+
+.logo {
+	width: 52px;
+	margin-right: 2%;
+}
+
+
+.main-page {
+	width: 1300px;
+	margin: 0 auto;
+}
+
+
+.block {
+	display: flex;
+	flex-direction: column;
+	height: 4500px;
+}
+
+.first_block {
+	font-size: 240%;
+	font-family: BebasNeue Bold;
+	width: 1300px;
+	height: 731px;
+	padding: 30px;
+	margin-bottom: 150px;
+	background-image: url(../img/harmonix.jpg);
+	background-size: cover;
+	border: solid;
+	border-width: 2px;
+	border-color: black;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.second_block {
+	display: flex;
+	flex-wrap: wrap;
+	width: 1300px;
+	height: 731px;
+	margin-bottom: 316px;
+}
+.second_block_images_left {
+	display: flex;
+	flex-direction: column;
+	width: 735px;
+}
+.second_block_images_right {
+	display: flex;
+	padding-left: 30px;
+	width: 565px;
+}
+.image
+{
+	margin-bottom: 20px;
+}
+
+.third_block{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: baseline;
+	width: 1300px;
+	height: 731px;
+	margin-bottom: 316px;
+}
+.third_block_images_1 {
+	display: flex;
+	flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -46px;
+  margin-right: 11px;
+}
+.third_block_images_2 {
+	display: flex;
+	flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -46px;
+  margin-left: 11px;
+}
+
+
+.fourth_block {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 1300px;
+	height: 731px;
+	margin-bottom: 316px;
+}
+.fourth_block_images {
+  display: flex;
+  flex-direction: column;
+  margin-top: -178px;
+}
