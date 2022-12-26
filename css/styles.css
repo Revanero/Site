@@ -78,6 +78,13 @@ body {
     text-align: center;
     margin-bottom: 15px;
 }
+.problemniy_title {
+	font-size: 240%;
+    font-family: BebasNeue Bold;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
 .mini_title {
 	font-size: 30px;
     font-family: BebasNeue Bold;
@@ -152,7 +159,7 @@ body {
 .block {
 	display: flex;
 	flex-direction: column;
-	height: 4500px;
+	height: 3700px;
 }
 
 .first_block {
@@ -184,16 +191,46 @@ body {
 .second_block_images_left {
 	display: flex;
 	flex-direction: column;
-	width: 735px;
+	width: 750px;
 }
 .second_block_images_right {
 	display: flex;
 	padding-left: 30px;
-	width: 565px;
+	width: 550px;
 }
 .image
 {
 	margin-bottom: 20px;
+}
+.image_songs {
+	margin-bottom: 20px;
+	transition: all 0.3s ease 0s;
+}
+.image_block {
+	position: relative;
+}
+.list_of_songs {
+	position: absolute;
+	top: 0;
+    left: 0;
+    width: 100%;
+    height: 94%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition:visibility 0.3s ease,opacity 0.3s ease;
+}
+
+.image_block:hover .list_of_songs {
+	visibility: visible;
+	opacity: 1;
+}
+.image_block:hover .image_songs {
+	filter: brightness(40%);
 }
 
 .third_block{
@@ -203,7 +240,7 @@ body {
 	align-items: baseline;
 	width: 1300px;
 	height: 731px;
-	margin-bottom: 316px;
+	margin-bottom: 140px;
 }
 .third_block_images_1 {
 	display: flex;
@@ -225,15 +262,86 @@ body {
 
 .fourth_block {
 	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-	justify-content: space-around;
+	flex-direction: column;
 	width: 1300px;
 	height: 731px;
-	margin-bottom: 316px;
 }
 .fourth_block_images {
   display: flex;
   flex-direction: column;
-  margin-top: -178px;
+  align-items: center;
+}
+
+
+.footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 100%;
+	background: #3e3b48;
+	font-size: 25px;
+	color: #ececec;
+}
+.footer_text_left_o_projecte {
+	font-family: BebasNeue Bold;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+}
+.footer_text_left {
+	font-family: BebasNeue Regular;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	text-decoration: none;
+	color: #ececec;
+}
+.footer_text_middle {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 20px;
+	margin-left: 40px;
+}
+.footer_text_middle_titles {
+	font-family: BebasNeue Bold;
+	margin-bottom: 5px;
+}
+.footer_text_middle_under_titles {
+	font-family: BebasNeue Regular;
+	font-size: 22px;
+	color: #c16170;
+	margin-bottom: 30px;
+}
+.footer_text_middle_bottom {
+	font-family: BebasNeue Regular;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top:90px;
+	text-decoration: none;
+	color: #ececec;
+}
+
+.footer_images_right {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.footer_images_up {
+	display: flex;
+	align-items: center;
+	margin-bottom: 100px;
+}
+.footer_images_down {
+	display: flex;
+}
+.footer_images {
+	margin-right: 30px;
 }
