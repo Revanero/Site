@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html>
+<link rel="stylesheet" href="css/itc-slider.css">
+<script src="js/itc-slider.js" defer></script>
 	<head>
 	 <meta charset="UTF-8">
 	 <meta name="keywords" content="bastion of rock, rock news, metal news, рок-новости, метал-новости, информация о рок-концертах, информация о метал-концертах, рок-фестивали, метал-фестивали">
@@ -40,18 +42,18 @@
 				<div class="second_block">
 					<h1 class="title"><span>БЛИЖАЙШИЕ КРУПНЕЙШИЕ РОК/МЕТАЛ ФЕСТИВАЛИ</span></h1>
 					<div class="second_block_images_left">
-						<img class="image" src="img/Wacken.jpg">
-						<img class = "image" src="img/rock am ring.jpg">
+						<a href="https://www.wacken.com/en/" target="_blank"><img class="image" src="img/Wacken.jpg" width="750" height="450"></a>
+						<a href="https://www.rock-am-ring.com/en" target="_blank"><img class = "image" src="img/rock am ring.jpg" width="750" height="450"></a>
 					</div>
 					<div class="second_block_images_right">
-						<img class="image" src="img/hellfest.jpg">
+						<a href="https://www.hellfest.fr/en/" target="_blank"><img class="image" src="img/hellfest.jpg" width="550" height="925"></a>
 					</div>
 				</div>
 				
 				<div class="third_block">
 					<h1 class="title"><span>ИНТЕРВЬЮ</span></h1>
 					<div class="third_block_images_1">
-						<img class="image" src="img/Metallica 2.jpg">
+						<a href="#"><img class="image" src="img/Metallica 2.jpg"></a>
 						<a class="mini_title">ИНТЕРВЬЮ С METALLICA: О ТОМ, ЧТО</a>
 						<a class="mini_title">ОТЛИЧАЕТ ГРУППУ ОТ ОСТАЛЬНЫХ,</a>
 						<a class="mini_title">РОК-БУНТАРСТВЕ, ФУТБОЛКАХ</a>
@@ -59,7 +61,7 @@
 						<a class="mini_title">НОВУЮ МУЗЫКУ</a>
 					</div>
 					<div class="third_block_images_2">
-						<img class="image" src="img/Dave-mustaine 2.jpg">
+						<a href="#"><img class="image" src="img/Dave-mustaine 2.jpg"></a>
 						<a class="mini_title">Д. МАСТЕЙН: ЗА ЧТО МЕНЯ</a>
 						<a class="mini_title">НЕНАВИДИТ КЕРРИ КИНГ?</a>
 					</div>
@@ -67,27 +69,142 @@
 				
 				<div class="fourth_block">
 					<h1 class="title"><span>НОВЫЕ РОК/МЕТАЛ-АЛЬБОМЫ 2022 ГОДА</span></h1>
-					<div class="fourth_block_images">
-						<img class="image" src="img/Sabaton - The War to End All Wars.jpg" width="340" height="340">
-						<a class="mini_title">SABATON</a>
-						<a class="mini_title">THE WAR TO END ALL WARS</a>
-						<a class="mini_title">4 МАРТА 2022</a>
-					</div>
-					<div class="fourth_block_images">
-						<img class="image" src="img/FiveFingerDeathPunch_Afterlife.jpg" width="340" height="340">
-						<a class="mini_title">FIVE FINGER DEATH PUNCH</a>
-						<a class="mini_title">AFTERLIFE</a>
-						<a class="mini_title">19 АВГУСТА 2022</a>
-					</div>
-					<div class="fourth_block_images">
-						<img class="image" src="img/Disturbed_Divisive.jpg" width="340" height="340">
-						<a class="mini_title">DISTURBED</a>
-						<a class="mini_title">DIVISIVE</a>
-						<a class="mini_title">18 НОЯБРЯ 2022</a>
+					<div class="itc-slider" data-slider="itc-slider" data-loop="true" data-autoplay="true">
+					  <div class="itc-slider__wrapper">
+						<div class="itc-slider__items">						  
+						  <div class="itc-slider__item">
+								<div class="fourth_block_images">
+									<div class="image_block">
+										<img class="image_songs" src="img/skillet - dominion.jpg" width="370" height="370">
+										<div class="list_of_songs">
+											<iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="100%" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/dominion/1585664659"></iframe>
+										</div>
+									</div>
+									<a class="mini_title">SKILLET</a>
+									<a class="mini_title">DOMINION</a>
+									<a class="mini_title">14 ЯНВАРЯ 2022</a>
+								</div>
+						  </div>
+						  <div class="itc-slider__item">
+								<div class="fourth_block_images">
+									<div class="image_block">
+										<img class="image_songs" src="img/scorpions - rock believer.jpg" width="370" height="370">
+										<div class="list_of_songs">
+											<iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="100%" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/rock-believer-deluxe-edition/1591060683"></iframe>
+										</div>
+									</div>
+									<a class="mini_title">SCORPIONS</a>
+									<a class="mini_title">ROCK BELIEVER</a>
+									<a class="mini_title">25 ФЕВРАЛЯ 2022</a>
+								</div>
+						  </div>
+						  <div class="itc-slider__item">
+								<div class="fourth_block_images">
+									<div class="image_block">
+										<img class="image_songs" src="img/Sabaton - The War to End All Wars.jpg" width="370" height="370">
+										<div class="list_of_songs">
+											<iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="100%" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/the-war-to-end-all-wars/1586765145"></iframe>
+										</div>
+									</div>
+									<a class="mini_title">SABATON</a>
+									<a class="mini_title">THE WAR TO END ALL WARS</a>
+									<a class="mini_title">4 МАРТА 2022</a>
+								</div>
+						  </div>						  
+						  <div class="itc-slider__item">
+								<div class="fourth_block_images">
+									<div class="image_block">
+										<img class="image_songs" src="img/rammstein - zeit.jpg" width="370" height="370">
+										<div class="list_of_songs">
+											<iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="100%" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/zeit/1612051984"></iframe>
+										</div>
+									</div>
+									<a class="mini_title">RAMMSTEIN</a>
+									<a class="mini_title">ZEIT</a>
+									<a class="mini_title">29 АПРЕЛЯ 2022</a>
+								</div>
+						  </div>
+						  <div class="itc-slider__item">
+								<div class="fourth_block_images">
+									<div class="image_block">
+										<img class="image_songs" src="img/FiveFingerDeathPunch_Afterlife.jpg" width="370" height="370">
+										<div class="list_of_songs">
+											<iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="100%" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/afterlife/1619239613"></iframe>
+										</div>
+									</div>
+									<a class="mini_title">FIVE FINGER DEATH PUNCH</a>
+									<a class="mini_title">AFTERLIFE</a>
+									<a class="mini_title">19 АВГУСТА 2022</a>
+								</div>
+						  </div>					  
+						  <div class="itc-slider__item">
+								<div class="fourth_block_images">
+									<div class="image_block">
+										<img class="image_songs" src="img/megadeth-the sick, the dying... and the dead.jpg" width="370" height="370">
+										<div class="list_of_songs">
+											<iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="100%" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/the-sick-the-dying-and-the-dead/1626183933"></iframe>
+										</div>
+									</div>
+									<a class="mini_title">MEGADETH</a>
+									<a class="mini_title">THE SICK, THE DYING... AND THE DEAD</a>
+									<a class="mini_title">2 СЕНТЯБРЯ 2022</a>
+								</div>
+						  </div>
+						  <div class="itc-slider__item">
+								<div class="fourth_block_images">
+									<div class="image_block">
+										<img class="image_songs" src="img/Disturbed_Divisive.jpg" width="370" height="370">
+										<div class="list_of_songs">
+											<iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="100%" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/divisive/1646032515"></iframe>
+										</div>
+									</div>
+									<a class="mini_title">DISTURBED</a>
+									<a class="mini_title">DIVISIVE</a>
+									<a class="mini_title">18 НОЯБРЯ 2022</a>
+								</div>
+						  </div>							  
+						</div>
+					  </div>
+					  <button class="itc-slider__btn itc-slider__btn_prev"></button>
+					  <button class="itc-slider__btn itc-slider__btn_next"></button>
 					</div>
 				</div>
 			</div>
 		</section>
 		
+		<footer class="footer">
+			<div class="footer_text_left">
+			<a class="footer_text_left_o_projecte">О ПРОЕКТЕ</a>
+			<a class="footer_text_left" href="#">НАШИ ПАРТНЁРЫ</a>
+			<a class="footer_text_left" href="#">УЧАСТНИКИ ПРОЕКТА</a>
+			<a class="footer_text_left" href="#">ПОЛИТИКА КОНФЕДЕНЦИАЛЬНОСТИ</a>
+			<a class="footer_text_left" href="#">СОГЛАШЕНИЕ О ПОЛЬЗОВАНИИ</a>
+			<a class="footer_text_left" href="#">КОНТАКТЫ</a>
+			<a class="footer_text_left" href="#">ВАКАНСИИ</a>
+			</div>
+			
+			<div class="footer_text_middle">
+			<a class="footer_text_middle_titles">ПОДПИСЫВАЙТЕСЬ НА НАШИ СОЦСЕТИ</a>	
+			<a class="footer_text_middle_under_titles">И БУДЬТЕ В КУРСЕ ВСЕХ НАШИХ НОВОСТЕЙ</a>
+			<a class="footer_text_middle_titles">СВЯЖИТЕСЬ С НАМИ:</a>	
+			<a class="footer_text_middle_under_titles" href="mailto:bastionofrock@gmail.com">bastionofrock@gmail.com</a>
+			<a class="footer_text_middle_bottom" href="#">ПОДДЕРЖКА ПРОЕКТА</a>
+			</div>
+			
+			<div class="footer_images_right">
+				<div class="footer_images_up">
+					<a href="#"><img class="footer_images" src="img/vk.png" width="60" height="50"></a>
+					<a href="#"><img class="footer_images" src="img/telegramm.png" width="60" height="60"></a>
+					<a href="#"><img class="footer_images" src="img/youtube.png" width="60" height="50"></a>
+					<a href="#"><img class="footer_images" src="img/Discord.png" width="60" height="60"></a>
+					<a href="#"><img class="footer_images" src="img/twitter.png" width="60" height="60"></a>
+				</div>
+				
+				<div class="footer_images_down">
+					<a href="#"><img class="footer_images" src="img/app-store-badge.png" width="160" height="60"></a>
+					<a href="#"><img class="footer_images" src="img/google-play-badge.png" width="160" height="60"></a>
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>
